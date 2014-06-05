@@ -1,0 +1,36 @@
+FORMAT: 1A
+HOST: https://api.dietaesaude.com.br
+
+# API de busca do Dieta e Saúde
+Essa minha API de busca do Dieta e Saúde é pobrema
+
+# Group Mensagens
+Aqui você encontrará tudo relacionado a API de mensagens
+
+# Mensagens [/mensagens]
+
+## Todas as mensagens [GET]
++ Request
+    + Headers
+        Token: xxx
++ Response 203
+    + Headers
+        Content-Type: application/json
+    {Teste: 2}
+
+## Insere uma nova mensagem [POST]
++ Response 203
+    Ok
+
+# Mensagens por id [/mensagens{id}]
+
+## Mensagem por id [GET]
++ Parameters
+    + id (optional, number, `2`) ... Favor não esquecer do parametro **id**
++ Request
+    + Headers
+        Token: xxx
++ Response 200
+    + Headers
+        Content-Type: application/json
+    {Teste: 2}
